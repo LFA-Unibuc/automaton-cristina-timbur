@@ -65,7 +65,7 @@ class Automaton():
         dict_ = {"Sigma": 0, "States": 0, "Transitions": 0}
         stare = ""
         for line in input_str.split("\n"):
-            if (line.split() == []) or (len(line) == 0) or (line[0] == '#'):
+            if (line.split() == []) or (len(line) == 0) or (line.strip()[0] == '#'):
                 continue
             cnt += 1
             line1 = line
