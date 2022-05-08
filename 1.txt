@@ -1,0 +1,23 @@
+# automaton
+Sigma :
+    0_1
+    1
+    0
+    
+End
+States :
+    q0,  F
+    q1,  F
+    q2, F
+    q3
+    q4, F, S
+
+             
+End
+Transitions :
+    q0, 0, q1
+    q0, 1, q0
+    q1, 0, q1
+    q1, 1, q2
+
+End
